@@ -1,0 +1,12 @@
+All you have to do...
+    Is create an indented hierarchy
+    Of your notes
+    In a list
+    And Indent.txt will turn it into a nice HTML file
+            With a ul hierarchy based on indent levels
+    Just use either
+        The command line utility
+        or the Sublime Text 2 Plugin
+It's great for:
+    Note-taking
+    Outlining
