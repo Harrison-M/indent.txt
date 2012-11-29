@@ -17,8 +17,8 @@ Parses inputfile using the Indent.txt parser and saves the result to outputfile
 ## Formatting
 Examples of all formatting marks can be found in test.txt with the results in output.html
 
-* Prefixing a line with a single asterisk (*) will wrap the item in an <em> tag
-* Prefixing a line with two asterisks (**) will wrap the item in a <strong> tag
+* Prefixing a line with a single asterisk (*) will wrap the item in an &lt;em&gt; tag
+* Prefixing a line with two asterisks (**) will wrap the item in a &lt;strong&gt; tag
 
 ## License
 MIT
