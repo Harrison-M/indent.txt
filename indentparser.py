@@ -43,7 +43,23 @@ class IndentTxtParser:
             #Samedent
             else:
                 output += "</li>\n"
-            output += "<li>" + cgi.escape(line)
+
+            #Format line
+            prefix = ""
+            suffix = ""
+            #Emphasis
+            if(line.find("*") == 0):
+                #strong
+                if(line.find("**") == 0):
+                    prefix = "<strong>"
+                    suffix = "</strong>"
+                    line = line[2:]
+                #em
+                else:
+                    prefix = "<em>"
+                    suffix = "</em>"
+                    line = line[1:]
+            output += "<li>" + prefix + cgi.escape(line) + suffix
             indentLevel = newIndentLevel
         #Tie up loose ends
         if(len(iterable) > 0):

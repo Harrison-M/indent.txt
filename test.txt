@@ -3,7 +3,9 @@ All you have to do...
     Of your notes
     In a list
     And Indent.txt will turn it into a nice HTML file
-            With a ul hierarchy based on indent levels
+        With a ul hierarchy based on indent levels
+        *And simple
+        **formatting
     Just use either
         The command line utility
         or the Sublime Text 2 Plugin
