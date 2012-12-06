@@ -62,7 +62,7 @@ class IndentTxtParser:
             output += "<li>" + prefix + cgi.escape(line) + suffix
             indentLevel = newIndentLevel
         #Tie up loose ends
-        if(len(iterable) > 0):
+        if(lineNum > 0):
             output += "</li>\n"
         for level in range(indentLevel):
             output += "</ul>\n</li>\n"
