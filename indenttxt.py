@@ -1,4 +1,4 @@
-import indentparser
+from indenttxt import indentparser
 import argparse
 
 
