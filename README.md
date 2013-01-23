@@ -18,6 +18,7 @@ Examples of all formatting marks can be found in test.txt with the results in ou
 
 * Prefixing a line with a single asterisk (*) will wrap the item in an &lt;em&gt; tag
 * Prefixing a line with two asterisks (**) will wrap the item in a &lt;strong&gt; tag
+* Prefixing a line with two forward slashes (//) indicates a comment, excluding the line from the results.  This will eventually be used for metadata and parser instructions.
 
 ## Like Indent.txt?
 
